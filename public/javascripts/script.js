@@ -11,7 +11,7 @@ convertBtn.addEventListener('click', () => {
 });
 
 function sendURL(URL) {
-    window.location.href = 'https://yt-downloader2019.herokuapp.com/download?URL=${URL}';
+    window.location.href = `https://yt-downloader2019.herokuapp.com/download?URL=${URL}`;
 
 }
 
